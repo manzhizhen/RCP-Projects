@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.ui.editors_3.7.0.v20110517-0800.jar" sourcepath="E:/32位Eclipse/Eclipse Modeling 32/plugins/org.eclipse.ui.editors.source_3.7.0.v20110517-0800.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.ui.ide_3.7.0.I20110519-0100.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.tools.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.aop-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.asm-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.aspects-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.beans-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.context-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.context.support-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.core-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.expression-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.instrument-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.instrument.tomcat-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.jdbc-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.jms-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.oxm-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.test-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.transaction-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.web-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.web.portlet-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.web.servlet-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.web.struts-3.1.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/ojdbc14-10.2.0.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.ui.forms_3.5.100.v20110425.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.orm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.gef_3.7.0.v20110407-2050.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.gef.source_3.7.0.v20110407-2050.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface_3.7.0.I20110522-1430.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface.text_3.7.0.v20110505-0800.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.draw2d_3.7.0.v20110425-2050.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-collections-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/derby.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/derbyclient.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jaxen-1.1-beta-6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jta-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/junit-4.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.ui.console_3.5.100.v20110511.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-security-core-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/javassist-3.12.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.nebula.widgets.gallery_1.0.0.v20081014yari.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/iText-2.0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/iTextAsian.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/iTextAsianCmaps.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/asm-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/asm-tree-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/bsf-2.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/groovy-1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/groovy-all-1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/groovypp-0.4.248_1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/groovyReset.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/ivy-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jline-0.9.94.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/servlet-api-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
