@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- o为选中，0为未选中 -->
+<Group>
+<createTable>0</createTable>
+<dropTable>0</dropTable>
+<commentTable>0</commentTable>
+<indexSQL>0</indexSQL>
+
+<defaultLine>0</defaultLine>
+<checkLine>0</checkLine>
+
+<createPrimaryKey>0</createPrimaryKey>
+<dropPrimaryKey>0</dropPrimaryKey>
+<createForeignKey>0</createForeignKey>
+<dropForeignKey>0</dropForeignKey>
+
+<!-- 新增属性 -->
+<initializeSQL>0</initializeSQL>
+<physicalModelSQL>0</physicalModelSQL>
+<storedProcedure>0</storedProcedure>
+</Group>

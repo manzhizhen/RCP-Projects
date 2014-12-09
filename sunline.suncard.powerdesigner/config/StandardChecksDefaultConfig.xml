@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatabaseType>
+	<!-- ORACLE -->
+	<database type="ORACLE" version="8">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+	<database type="ORACLE" version="8i">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+	<database type="ORACLE" version="8i2">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+	<database type="ORACLE" version="9i">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+	<database type="ORACLE" version="9i2">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+	<database type="ORACLE" version="10g">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+	<database type="ORACLE" version="10gR2">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+	<database type="ORACLE" version="11g">
+		<stringList>NULL</stringList>
+		<stringList>SYSDATE</stringList>
+	</database>
+
+	<!-- SYBASE_AS_ENTERPRISE -->
+	<database type="SYBASE_AS_ENTERPRISE" version="11.0">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="11.5-11.9">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.0">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5.1">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5.2">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5.3a">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="15.0">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="15.0.2">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>show_role()</stringList>
+	</database>
+
+	<database type="SYBASE_AVAKI" version="">Sybase Avaki</database>
+	<stringList>NULL</stringList>
+	<stringList>USER</stringList>
+
+	<database type="SYBASE_IQ" version="12.0">
+		<stringList>NULL</stringList>
+		<stringList>AUTOINCREMENT</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT PUBLISHER</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT USER</stringList>
+		<stringList>LAST USER</stringList>
+		<stringList>USER</stringList>
+	</database>
+	<database type="SYBASE_IQ" version="12.4.3">
+		<stringList>NULL</stringList>
+		<stringList>AUTOINCREMENT</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT PUBLISHER</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT USER</stringList>
+		<stringList>LAST USER</stringList>
+		<stringList>USER</stringList>
+	</database>
+	<database type="SYBASE_IQ" version="12.5">
+		<stringList>NULL</stringList>
+		<stringList>AUTOINCREMENT</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT PUBLISHER</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT USER</stringList>
+		<stringList>LAST USER</stringList>
+		<stringList>USER</stringList>
+	</database>
+	<database type="SYBASE_IQ" version="12.6">
+		<stringList>NULL</stringList>
+		<stringList>AUTOINCREMENT</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT PUBLISHER</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT USER</stringList>
+		<stringList>LAST USER</stringList>
+		<stringList>USER</stringList>
+	</database>
+	<database type="SYBASE_IQ" version="12.7">
+		<stringList>NULL</stringList>
+		<stringList>AUTOINCREMENT</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT PUBLISHER</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT USER</stringList>
+		<stringList>LAST USER</stringList>
+		<stringList>USER</stringList>
+	</database>
+	<database type="SYBASE_IQ" version="15.x">
+		<stringList>NULL</stringList>
+		<stringList>AUTOINCREMENT</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT PUBLISHER</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT USER</stringList>
+		<stringList>LAST USER</stringList>
+		<stringList>USER</stringList>
+
+	</database>
+
+
+	<!-- SYBASE_SQL_ANYWHERE -->
+	<database type="SYBASE_SQL_ANYWHERE" version="10">
+		<stringList>autoincrement</stringList>
+		<stringList>current database</stringList>
+		<stringList>current date</stringList>
+		<stringList>current publisher</stringList>
+		<stringList>current remote user</stringList>
+		<stringList>current time</stringList>
+		<stringList>current timestamp</stringList>
+		<stringList>current utc timestamp</stringList>
+		<stringList>current user</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>global autoincrement</stringList>
+		<stringList>lasr user</stringList>
+		<stringList>newid()</stringList>
+		<stringList>null</stringList>
+		<stringList>sqlcode</stringList>
+		<stringList>sqlstate</stringList>
+		<stringList>timestamp</stringList>
+		<stringList>user</stringList>
+		<stringList>utc timestamp</stringList>
+	</database>
+	<database type="SYBASE_SQL_ANYWHERE" version="11">
+		<stringList>autoincrement</stringList>
+		<stringList>current database</stringList>
+		<stringList>current date</stringList>
+		<stringList>current publisher</stringList>
+		<stringList>current remote user</stringList>
+		<stringList>current time</stringList>
+		<stringList>current timestamp</stringList>
+		<stringList>current utc timestamp</stringList>
+		<stringList>current user</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>global autoincrement</stringList>
+		<stringList>lasr user</stringList>
+		<stringList>newid()</stringList>
+		<stringList>null</stringList>
+		<stringList>sqlcode</stringList>
+		<stringList>sqlstate</stringList>
+		<stringList>timestamp</stringList>
+		<stringList>user</stringList>
+		<stringList>utc timestamp</stringList>
+	</database>
+
+	<!-- MYSQL -->
+	<database type="MYSQL" version="4.0">
+		<stringList>NULL</stringList>
+	</database>
+	<database type="MYSQL" version="5.0">
+		<stringList>NULL</stringList>
+		<stringList>CURRENT_TIMESTAMP</stringList>
+		<stringList>CURRENT_TIMESTAMP ON UP</stringList>
+	</database>
+
+	<!-- IBM_DB2 -->
+	<database type="IBM_DB2" version="5X">
+		<stringList>NULL</stringList>
+		<stringList>USER</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT DEGREE</stringList>
+		<stringList>CURRENT PACKAGESET</stringList>
+		<stringList>CURRENT RULES</stringList>
+		<stringList>CURRENT SERVER</stringList>
+		<stringList>CURRENT SQLID</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT TIMEZONE</stringList>
+	</database>
+	<database type="IBM_DB2" version="6">
+		<stringList>NULL</stringList>
+		<stringList>USER</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT DEGREE</stringList>
+		<stringList>CURRENT PACKAGESET</stringList>
+		<stringList>CURRENT RULES</stringList>
+		<stringList>CURRENT SERVER</stringList>
+		<stringList>CURRENT SQLID</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT TIMEZONE</stringList>
+	</database>
+	<database type="IBM_DB2" version="6X">
+		<stringList>NULL</stringList>
+		<stringList>USER</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT DEGREE</stringList>
+		<stringList>CURRENT PACKAGESET</stringList>
+		<stringList>CURRENT RULES</stringList>
+		<stringList>CURRENT SERVER</stringList>
+		<stringList>CURRENT SQLID</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT TIMEZONE</stringList>
+	</database>
+	<database type="IBM_DB2" version="7">
+		<stringList>NULL</stringList>
+		<stringList>USER</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT DEGREE</stringList>
+		<stringList>CURRENT PACKAGESET</stringList>
+		<stringList>CURRENT RULES</stringList>
+		<stringList>CURRENT SERVER</stringList>
+		<stringList>CURRENT SQLID</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT TIMEZONE</stringList>
+	</database>
+	<database type="IBM_DB2" version="7X">
+		<stringList>NULL</stringList>
+		<stringList>USER</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT DEGREE</stringList>
+		<stringList>CURRENT PACKAGESET</stringList>
+		<stringList>CURRENT RULES</stringList>
+		<stringList>CURRENT SERVER</stringList>
+		<stringList>CURRENT SQLID</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT TIMEZONE</stringList>
+	</database>
+	<database type="IBM_DB2" version="8">
+		<stringList>NULL</stringList>
+		<stringList>USER</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT DEGREE</stringList>
+		<stringList>CURRENT PACKAGESET</stringList>
+		<stringList>CURRENT RULES</stringList>
+		<stringList>CURRENT SERVER</stringList>
+		<stringList>CURRENT SQLID</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT TIMEZONE</stringList>
+	</database>
+	<database type="IBM_DB2" version="8X">
+		<stringList>NULL</stringList>
+		<stringList>USER</stringList>
+		<stringList>CURRENT DATE</stringList>
+		<stringList>CURRENT DEGREE</stringList>
+		<stringList>CURRENT PACKAGESET</stringList>
+		<stringList>CURRENT RULES</stringList>
+		<stringList>CURRENT SERVER</stringList>
+		<stringList>CURRENT SQLID</stringList>
+		<stringList>CURRENT TIME</stringList>
+		<stringList>CURRENT TIMESTAMP</stringList>
+		<stringList>CURRENT TIMEZONE</stringList>
+	</database>
+	<database type="IBM_DB2" version="9X">
+		<stringList>current client_acctng</stringList>
+		<stringList>client acctng</stringList>
+		<stringList>current client_applname</stringList>
+		<stringList>client applname</stringList>
+		<stringList>current client_userid</stringList>
+		<stringList>client userid</stringList>
+		<stringList>current client_wrkstnname</stringList>
+		<stringList>client wrkstnname</stringList>
+		<stringList>current date</stringList>
+		<stringList>current_date</stringList>
+		<stringList>current dbpartitionnum</stringList>
+		<stringList>current default transform group</stringList>
+		<stringList>current degree</stringList>
+		<stringList>current explain mode</stringList>
+		<stringList>current explain snapshot</stringList>
+		<stringList>current federated asynchrony</stringList>
+		<stringList>current implicit xmlparse option</stringList>
+		<stringList>current isolation</stringList>
+		<stringList>current lock timeout</stringList>
+		<stringList>current maintained table types for optimization
+		</stringList>
+		<stringList>current package path</stringList>
+		<stringList>current path</stringList>
+		<stringList>current_path</stringList>
+		<stringList>current query optimization</stringList>
+		<stringList>current refresh age</stringList>
+		<stringList>current schema</stringList>
+		<stringList>current_schema</stringList>
+		<stringList>current server</stringList>
+		<stringList>current_server</stringList>
+		<stringList>current time</stringList>
+		<stringList>current_time</stringList>
+		<stringList>current timestamp</stringList>
+		<stringList>current_timestamp</stringList>
+		<stringList>current timezone</stringList>
+		<stringList>current_timezone</stringList>
+		<stringList>current user</stringList>
+		<stringList>current_user</stringList>
+		<stringList>session_user</stringList>
+		<stringList>user</stringList>
+		<stringList>system_user</stringList>
+		<stringList>null</stringList>
+	</database>
+
+	<!-- SQL_Server -->
+	<database type="SQL_Server" version="2000">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>current_user</stringList>
+		<stringList>session_user</stringList>
+		<stringList>system_user</stringList>
+		<stringList>current_timestamp</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>newid()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>suser_sname()</stringList>
+	</database>
+	<database type="SQL_Server" version="2005">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>current_user</stringList>
+		<stringList>session_user</stringList>
+		<stringList>system_user</stringList>
+		<stringList>current_timestamp</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>newid()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>suser_sname()</stringList>
+	</database>
+	<database type="SQL_Server" version="2008">
+		<stringList>user</stringList>
+		<stringList>null</stringList>
+		<stringList>current_user</stringList>
+		<stringList>session_user</stringList>
+		<stringList>system_user</stringList>
+		<stringList>current_timestamp</stringList>
+		<stringList>getdate()</stringList>
+		<stringList>user_id()</stringList>
+		<stringList>user_name()</stringList>
+		<stringList>db_id()</stringList>
+		<stringList>db_name()</stringList>
+		<stringList>host_id()</stringList>
+		<stringList>host_name()</stringList>
+		<stringList>newid()</stringList>
+		<stringList>suser_id()</stringList>
+		<stringList>suser_name()</stringList>
+		<stringList>suser_sname()</stringList>
+	</database>
+</DatabaseType>

@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatabaseType>
+	<!-- ORACLE -->
+	<!-- 常用数据类型 -->
+	<database type="ORACLE" version="8">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+	
+	<database type="ORACLE" version="8i">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+	
+	<database type="ORACLE" version="8i2">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+	<database type="ORACLE" version="9i">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+	<database type="ORACLE" version="9i2">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+	<database type="ORACLE" version="10g">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+	<database type="ORACLE" version="10gR2">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+	<database type="ORACLE" version="11g">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ cascade constraints ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@ ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) ;
+		</addFKSQL>
+	</database>
+
+	<!-- SYBASE_AS_ENTERPRISE -->
+	<database type="SYBASE_AS_ENTERPRISE" version="11.0">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="11.5-11.9">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.0">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5.1">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5.2">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="12.5.3a">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="15.0">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_AS_ENTERPRISE" version="15.0.2">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+
+	<!-- SYBASE_AVAKI -->
+	<database type="SYBASE_AVAKI" version="">
+		<dropSQL name="drop">
+			
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		
+		</deleteFKSQL>
+		<addFKSQL>
+		
+		</addFKSQL>
+	</database>
+
+	<!-- SYBASE_IQ -->
+	<database type="SYBASE_IQ" version="12.0">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      unenforced ;
+		</addFKSQL>
+	</database>
+	<database type="SYBASE_IQ" version="12.4.3">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict unenforced ;
+		</addFKSQL>
+	</database>
+
+	<database type="SYBASE_IQ" version="12.5">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+
+	<database type="SYBASE_IQ" version="12.6">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+
+	<database type="SYBASE_IQ" version="12.7">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+
+	<database type="SYBASE_IQ" version="15.x">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+
+	<!-- SYBASE_SQL_ANYWHERE -->
+	<database type="SYBASE_SQL_ANYWHERE" version="10">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE' , 'GBL TEMP')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+
+	<database type="SYBASE_SQL_ANYWHERE" version="11">
+		<dropSQL name="drop">
+			if exists(
+			select 1 from sys.systable
+			where table_name='@TABLENAME@'
+			and table_type in ('BASE' , 'GBL TEMP')
+			) then
+			drop table @TABLENAME@
+			end if ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		if exists(select 1 from sys.sysforeignkey where role='@CONSTRAINT@') then
+		    alter table @TABLENAME_1@
+		       delete foreign key @CONSTRAINT@
+		end if ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key @CONSTRAINT@ (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on update restrict
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+
+	<!-- MYSQL -->
+	<database type="MYSQL" version="4.0">
+		<dropSQL name="drop">
+			drop table if exists @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment = '@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+        <deleteFKSQL>
+		
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@ add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+
+	<database type="MYSQL" version="5.0">
+		<dropSQL name="drop">
+			drop table if exists @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			alter table @TABLENAME@ comment '@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			
+		</sqlType>
+		<deleteFKSQL>
+		
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@ add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@) on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+
+	<!-- IBM_DB2 -->
+	<database type="IBM_DB2" version="5X">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint "@CONSTRAINT@" foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+	<database type="IBM_DB2" version="6">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key "@CONSTRAINT@" (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="IBM_DB2" version="6X">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint "@CONSTRAINT@" foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+	<database type="IBM_DB2" version="7">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key "@CONSTRAINT@" (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="IBM_DB2" version="7X">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint "@CONSTRAINT@" foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+	<database type="IBM_DB2" version="8">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add foreign key "@CONSTRAINT@" (@KEY_LIST@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict ;
+		</addFKSQL>
+	</database>
+	<database type="IBM_DB2" version="8X">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint "@CONSTRAINT@" foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+	<database type="IBM_DB2" version="9X">
+		<dropSQL name="drop">
+			drop table @TABLENAME@ ;
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			comment on table @TABLENAME@ is 
+'@TABLECOMMENT@' ;
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			comment on column @TABLENAME@.@COLUMNNAME@ is 
+'@COLUMNCOMMENT@' ;
+		</sqlType>
+		<deleteFKSQL>
+		alter table @TABLENAME_1@
+   drop foreign key "@CONSTRAINT@" ;
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint "@CONSTRAINT@" foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+      on delete restrict on update restrict ;
+		</addFKSQL>
+	</database>
+
+	<!-- SQL_Server -->
+	<database type="SQL_Server" version="2000">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			declare @CurrentUser sysname
+			select @CurrentUser = user_name()
+			execute sp_addextendedproperty 'MS_Description' ,
+			'@TABLECOMMENT@' ,
+			'user' , @CurrentUser, 'table' , '@TABLENAME@'
+			go
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			declare @CurrentUser sysname
+			select @CurrentUser = user_name()
+			execute sp_addextendedproperty 'MS_Description' ,
+			'@COLUMNCOMMENT@' ,
+			'user' , @CurrentUser, 'table' , '@TABLENAME@' , 'column' , '@COLUMNNAME@'
+			go
+		</sqlType>
+		<deleteFKSQL>
+		if exists (select 1
+   from dbo.sysreferences r join dbo.sysobjects o on (o.id = r.constid and o.type = 'F')
+   where r.fkeyid = object_id('@TABLENAME_1@') and o.name = '@CONSTRAINT@')
+alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@
+go
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+go
+		</addFKSQL>
+	</database>
+	<database type="SQL_Server" version="2005">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			declare @CurrentUser sysname
+			select @CurrentUser = user_name()
+			execute sp_addextendedproperty 'MS_Description' ,
+			'@TABLECOMMENT@' ,
+			'user' , @CurrentUser, 'table' , '@TABLENAME@'
+			go
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			declare @CurrentUser sysname
+			select @CurrentUser = user_name()
+			execute sp_addextendedproperty 'MS_Description' ,
+			'@COLUMNCOMMENT@' ,
+			'user' , @CurrentUser, 'table' , '@TABLENAME@' , 'column' , '@COLUMNNAME@'
+			go
+		</sqlType>
+		<deleteFKSQL>
+		if exists (select 1
+   from dbo.sysreferences r join dbo.sysobjects o on (o.id = r.constid and o.type = 'F')
+   where r.fkeyid = object_id('@TABLENAME_1@') and o.name = '@CONSTRAINT@')
+alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@
+go
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+go
+		</addFKSQL>
+	</database>
+	<database type="SQL_Server" version="2008">
+		<dropSQL name="drop">
+			if exists (select 1
+			from sysobjects
+			where id = object_id('@TABLENAME@')
+			and type = 'U')
+			drop table @TABLENAME@
+			go
+		</dropSQL>
+		<tabCommentSQL name="tabComment">
+			declare @CurrentUser sysname
+			select @CurrentUser = user_name()
+			execute sp_addextendedproperty 'MS_Description' ,
+			'@TABLECOMMENT@' ,
+			'user' , @CurrentUser, 'table' , '@TABLENAME@'
+			go
+		</tabCommentSQL>
+		<sqlType name="columnComment">
+			declare @CurrentUser sysname
+			select @CurrentUser = user_name()
+			execute sp_addextendedproperty 'MS_Description' ,
+			'@COLUMNCOMMENT@' ,
+			'user' , @CurrentUser, 'table' , '@TABLENAME@' , 'column' , '@COLUMNNAME@'
+			go
+		</sqlType>
+		<deleteFKSQL>
+		if exists (select 1
+   from dbo.sysreferences r join dbo.sysobjects o on (o.id = r.constid and o.type = 'F')
+   where r.fkeyid = object_id('@TABLENAME_1@') and o.name = '@CONSTRAINT@')
+alter table @TABLENAME_1@
+   drop constraint @CONSTRAINT@
+go
+		</deleteFKSQL>
+		<addFKSQL>
+		alter table @TABLENAME_1@
+   add constraint @CONSTRAINT@ foreign key (@KEY_LIST1@)
+      references @TABLENAME_2@ (@KEY_LIST2@)
+go
+		</addFKSQL>
+	</database>
+</DatabaseType>

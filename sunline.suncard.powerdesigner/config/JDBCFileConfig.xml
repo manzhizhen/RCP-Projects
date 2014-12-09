@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DriverType>
+<driverName name="">
+<driver>
+IBM DB2(App driver)
+</driver>
+<connectionURL>
+jdbc:db2://&lt;host_name&gt;:6789/&lt;dbname&gt;
+</connectionURL>
+<userName>
+
+</userName>
+<password>
+
+</password>
+<JARsAddress>
+
+</JARsAddress>
+<driverClassName>
+
+</driverClassName>
+</driverName>
+</DriverType>

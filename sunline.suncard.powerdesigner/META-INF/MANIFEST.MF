@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SunCardPowerDesigner
+Bundle-SymbolicName: sunline.suncard.powerdesigner; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cn.sunline.suncard.powerdesigner.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ sunline.suncard.sde.baseplugin;bundle-version="1.0.0",
+ org.eclipse.gef;bundle-version="3.7.0",
+ org.eclipse.ui.views;bundle-version="3.6.0"
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: swing2swt.jar,
+ .
+Import-Package: org.eclipse.core.resources,
+ org.eclipse.jface.text,
+ org.eclipse.jface.text.rules,
+ org.eclipse.jface.text.source,
+ org.eclipse.ui,
+ org.eclipse.ui.editors.text,
+ org.eclipse.ui.texteditor
+Bundle-ActivationPolicy: lazy
+Export-Package: cn.sunline.suncard.powerdesigner.exception,
+ cn.sunline.suncard.powerdesigner.tree.factory

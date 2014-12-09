@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 设置所支持的数据库不同版本内容 -->
+<DatabaseType>
+<!-- ORACLE -->
+	<database type="ORACLE" version="11g" default="1">
+		<!-- 常用数据类型 常用数据类型 常用数据类型 常用数据类型 常用数据类型 -->
+		<dataType name="CHAR1" length="-1" precision="-1" default="0">CHAR
+		</dataType>
+		<dataType name="DATE1" length="-1" precision="-1" default="0">DATE
+		</dataType>
+		<dataType name="DECIMAL3" length="0" precision="0" default="0">DECIMAL(%s,%p)
+		</dataType>
+		<dataType name="TIME1" length="-1" precision="-1" default="0">TIMESTAMP
+		</dataType>
+		<dataType name="VARCHAR2" length="0" precision="-1" default="0">VARCHAR2(%n)
+		</dataType>
+		
+		<!-- jdbc类型BIGINT -->
+		<dataType name="BIGINT1" length="-1" precision="-1" default="0">NUMBER
+		</dataType>
+		<dataType name="BIGINT2" length="0" precision="-1" default="0">NUMBER(%n)
+		</dataType>
+		<dataType name="BIGINT3" length="0" precision="0" default="0">NUMBER(%m,%n)
+		</dataType>
+		<!-- jdbc类型BINARY -->
+		<dataType name="BINARY1" length="-1" precision="-1" default="0">LONG
+			RAW
+		</dataType>
+		<!-- jdbc类型BIT -->
+		<dataType name="BIT1" length="0" precision="-1" default="0">RAW(%n)
+		</dataType><!-- n=1 to 2000 -->
+		<!-- jdbc类型BLOB -->
+		<dataType name="BLOB1" length="-1" precision="-1" default="0">BLOB
+		</dataType>
+		<!-- jdbc类型CHAR -->
+		
+		<dataType name="CHAR2" length="0" precision="-1" default="0">CHAR(%n)
+		</dataType>
+		<dataType name="CHAR3" length="-1" precision="-1" default="0">NCHAR
+		</dataType>
+		<dataType name="CHAR4" length="0" precision="-1" default="0">NVARCHAR2(%n)
+		</dataType>
+		<dataType name="CHAR5" length="-1" precision="-1" default="1">LONG
+		</dataType>
+		<!-- jdbc类型CLOB -->
+		<dataType name="CLOB1" length="-1" precision="-1" default="0">CLOB
+		</dataType>
+		<!-- jdbc类型DATE -->
+		
+		<!-- jdbc类型DECIMAL -->
+		<dataType name="DECIMAL1" length="-1" precision="-1" default="0">
+			DECIMAL
+		</dataType>
+		<dataType name="DECIMAL2" length="0" precision="-1" default="0">DECIMAL(%n)
+		</dataType>
+		
+		<!-- jdbc类型DOUBLE -->
+		<dataType name="DOUBLE1" length="-1" precision="-1" default="1">NUMBER
+		</dataType>
+		<dataType name="DOUBLE2" length="0" precision="-1" default="1">NUMBER(%n)
+		</dataType>
+		<dataType name="DOUBLE3" length="0" precision="0" default="1">NUMBER(%m,%n)
+		</dataType>
+		<!-- jdbc类型FLOAT -->
+		<dataType name="FLOAT1" length="-1" precision="-1" default="0">FLOAT
+		</dataType>
+		<dataType name="FLOAT2" length="0" precision="-1" default="0">FLOAT(%n)
+		</dataType>
+		<!-- jdbc类型INTEGER -->
+		<dataType name="INTEGER1" length="-1" precision="-1" default="0">
+			INTEGER
+		</dataType>
+		<!-- jdbc类型long varbinary -->
+		<dataType name="long varbinary1" length="-1" precision="-1"
+			default="1">LONG
+			RAW
+		</dataType>
+		<!-- jdbc类型long varchar -->
+		<dataType name="long varchar1" length="-1" precision="-1"
+			default="0">LONG
+		</dataType>
+		<!-- jdbc类型NUMERIC -->
+		<dataType name="NUMERIC1" length="-1" precision="-1" default="0">
+			NUMERIC
+		</dataType>
+		<dataType name="NUMERIC2" length="0" precision="-1" default="0">NUMERIC(%n)
+		</dataType>
+		<dataType name="NUMERIC3" length="0" precision="0" default="0">NUMERIC(%m,%n)
+		</dataType>
+		<!-- jdbc类型REAL -->
+		<dataType name="REAL1" length="-1" precision="-1" default="0">REAL
+		</dataType>
+		<!-- jdbc类型SMALLINT -->
+		<dataType name="SMALLINT1" length="-1" precision="-1"
+			default="0">SMALLINT
+		</dataType>
+		<!-- jdbc类型TIME -->
+		
+		<!-- jdbc类型TIMESTAMP -->
+		<dataType name="TIMESTAMP1" length="-1" precision="-1"
+			default="1">TIMESTAMP
+		</dataType>
+		<!-- jdbc类型TINYINT -->
+		<dataType name="TINYINT1" length="-1" precision="-1" default="1">
+			NUMBER
+		</dataType>
+		<dataType name="TINYINT2" length="0" precision="-1" default="1">NUMBER(%n)
+		</dataType>
+		<dataType name="TINYINT3" length="0" precision="0" default="1">NUMBER(%m,%n)
+		</dataType>
+		<!-- jdbc类型VARBINARY -->
+		<dataType name="VARBINARY1" length="0" precision="-1"
+			default="0">RAW(%n)
+		</dataType>
+		<dataType name="VARBINARY2" length="-1" precision="-1"
+			default="1">LONG RAW
+		</dataType>
+		<!-- jdbc类型VARCHAR -->
+		<dataType name="VARCHAR1" length="0" precision="-1" default="0">VARCHAR(%n)
+		</dataType>
+		
+	</database>
+
+
+	<!-- 华丽丽的分割线华丽丽的分割线华丽丽的分割线华丽丽的分割线v华丽丽的分割线 -->
+
+
+<!-- MYSQL -->
+	<database type="MYSQL" version="5.0" default="1">
+		<!-- 常用数据类型 常用数据类型 常用数据类型 常用数据类型 常用数据类型 -->
+		<!-- jdbc类型BIGINT -->
+		<dataType name="BIGINT1" length="-1" precision="-1" default="0">bigint
+		</dataType>
+		<dataType name="BIGINT2" length="0" precision="-1" default="0">bigint(%n)
+		</dataType>
+		<dataType name="BIGINT3" length="0" precision="-1" default="1">bigint(%n)
+		</dataType>
+		<!-- jdbc类型BINARY -->
+		<dataType name="BINARY1" length="-1" precision="-1" default="1">binary(%n)
+		</dataType>
+		<dataType name="BINARY1" length="0" precision="-1" default="0">binary(%n)
+		</dataType>
+		<dataType name="BINARY1" length="0" precision="-1" default="1">varbinary(%n)
+		</dataType>
+		<!-- jdbc类型BIT -->
+		<dataType name="BIT1" length="-1" precision="-1" default="0">bit
+		</dataType>
+		<dataType name="BIT1" length="0" precision="-1" default="0">bit(%n)
+		</dataType>
+		<!-- jdbc类型BLOB -->
+		<dataType name="BLOB1" length="-1" precision="-1" default="0">blob
+		</dataType>
+		<!-- jdbc类型CHAR -->
+		<dataType name="CHAR1" length="-1" precision="-1" default="0">char
+		</dataType>
+		<dataType name="CHAR2" length="0" precision="-1" default="0">char(%n)
+		</dataType>
+		<dataType name="CHAR3" length="0" precision="-1" default="1">char(%n)
+		</dataType>
+		<dataType name="CHAR4" length="0" precision="-1" default="0">varchar(%n)
+		</dataType>
+		<dataType name="CHAR5" length="-1" precision="-1" default="1">char
+		</dataType>
+		<!-- jdbc类型CLOB -->
+		<dataType name="CLOB1" length="-1" precision="-1" default="0">longtext
+		</dataType>
+		<!-- jdbc类型DATE -->
+		<dataType name="DATE1" length="-1" precision="-1" default="0">date
+		</dataType>
+		<!-- jdbc类型DECIMAL -->
+		<dataType name="DECIMAL1" length="-1" precision="-1" default="0">
+			decimal
+		</dataType>
+		<dataType name="DECIMAL2" length="0" precision="-1" default="0">decimal(%n)
+		</dataType>
+		<dataType name="DECIMAL3" length="0" precision="0" default="0">decimal(%s,%p)
+		</dataType>
+		<!-- jdbc类型DOUBLE -->
+		<dataType name="DOUBLE1" length="-1" precision="-1" default="0">double
+		</dataType>
+		<dataType name="DOUBLE2" length="0" precision="-1" default="1">double
+		</dataType>
+		<dataType name="DOUBLE3" length="0" precision="0" default="0">double(%s,
+			%P)
+		</dataType>
+		<!-- jdbc类型FLOAT -->
+		<dataType name="FLOAT1" length="0" precision="-1" default="0">float(%n)
+		</dataType>
+		<dataType name="FLOAT2" length="0" precision="0" default="0">float(%s,
+			%p)
+		</dataType>
+		<!-- jdbc类型INTEGER -->
+		<dataType name="INTEGER1" length="-1" precision="-1" default="0">
+			integer
+		</dataType>
+		<!-- jdbc类型long varbinary -->
+		<dataType name="long varbinary1" length="-1" precision="-1"
+			default="0">long varbinary
+		</dataType>
+		<!-- jdbc类型long varchar -->
+		<dataType name="long varchar1" length="-1" precision="-1"
+			default="0">long varchar
+		</dataType>
+		<!-- jdbc类型NUMERIC -->
+		<dataType name="NUMERIC1" length="-1" precision="-1" default="0">
+			numeric
+		</dataType>
+		<dataType name="NUMERIC2" length="0" precision="-1" default="0">numeric(%n)
+		</dataType>
+		<dataType name="NUMERIC3" length="0" precision="0" default="0">numeric(%m,%n)
+		</dataType>
+		<!-- jdbc类型REAL -->
+		<dataType name="REAL1" length="-1" precision="-1" default="0">real
+		</dataType>
+		<!-- jdbc类型SMALLINT -->
+		<dataType name="SMALLINT1" length="-1" precision="-1"
+			default="0">smallint
+		</dataType>
+		<!-- jdbc类型TIME -->
+		<dataType name="TIME1" length="-1" precision="-1" default="0">time
+		</dataType>
+		<!-- jdbc类型TIMESTAMP -->
+		<dataType name="TIMESTAMP1" length="-1" precision="-1"
+			default="0">timestamp
+		</dataType>
+		<!-- jdbc类型TINYINT -->
+		<dataType name="TINYINT1" length="-1" precision="-1" default="0">
+			tinyint
+		</dataType>
+		<dataType name="TINYINT2" length="0" precision="-1" default="0">tinyint(%n)
+		</dataType>
+		<dataType name="TINYINT3" length="0" precision="0" default="1">tinyint
+		</dataType>
+		<!-- jdbc类型VARBINARY -->
+		<dataType name="VARBINARY1" length="0" precision="-1"
+			default="0">varbinary(%n)
+		</dataType>
+		<dataType name="VARBINARY2" length="-1" precision="-1"
+			default="0">varbinary
+		</dataType>
+		<!-- jdbc类型VARCHAR -->
+		<dataType name="VARCHAR1" length="0" precision="-1" default="0">
+			varchar(%n)
+		</dataType>
+		<dataType name="VARCHAR2" length="0" precision="-1" default="0">varchar(%n) binary
+		</dataType>
+	</database>
+
+
+	<!-- 华丽丽的分割线华丽丽的分割线华丽丽的分割线华丽丽的分割线v华丽丽的分割线 -->
+
+<!-- DB2 -->
+	<database type="IBM_DB2" version="9X" default="1">
+		<!-- 常用数据类型 常用数据类型 常用数据类型 常用数据类型 常用数据类型 -->
+		<dataType name="CHAR1" length="-1" precision="-1" default="0">CHAR
+		</dataType>
+		<dataType name="DATE1" length="-1" precision="-1" default="0">DATE
+		</dataType>
+		<dataType name="DECIMAL3" length="0" precision="0" default="0">DECIMAL(%s,%p)
+		</dataType>
+		<dataType name="TIMESTAMP1" length="-1" precision="-1"
+			default="0">TIMESTAMP
+		</dataType>
+		<dataType name="VARCHAR1" length="0" precision="-1" default="0">
+			VARCHAR(%n)
+		</dataType>
+		
+		<!-- jdbc类型BIGINT -->
+		<dataType name="BIGINT1" length="-1" precision="-1" default="0">BIGINT
+		</dataType>
+		<dataType name="BIGINT2" length="-1" precision="-1" default="1">BIGINT
+		</dataType>
+		<dataType name="BIGINT3" length="-1" precision="-1" default="1">BIGINT
+		</dataType>
+		<!-- jdbc类型BINARY -->
+		<dataType name="BINARY1" length="0" precision="-1" default="1">CHAR(%n)
+		</dataType>
+		<dataType name="BINARY1" length="0" precision="-1" default="0">CHAR(%n)
+		</dataType>
+		<dataType name="BINARY1" length="0" precision="-1" default="1">VARCHAR(%n)
+		</dataType>
+		<!-- jdbc类型BIT -->
+		<dataType name="BIT1" length="0" precision="-1" default="1">CHAR(%n)
+			</dataType>
+		<dataType name="BIT1" length="0" precision="-1" default="1">CHAR(%n)
+			</dataType>
+		<!-- jdbc类型BLOB -->
+		<dataType name="BLOB1" length="-1" precision="-1" default="0">BLOB
+		</dataType>
+		<!-- jdbc类型CHAR -->
+		
+		<dataType name="CHAR2" length="0" precision="-1" default="0">CHAR(%n)
+		</dataType>
+		<dataType name="CHAR3" length="0" precision="-1" default="1">CHAR(%n)
+		</dataType>
+		<dataType name="CHAR4" length="0" precision="-1" default="1">VARCHAR(%n)
+		</dataType>
+		<dataType name="CHAR5" length="-1" precision="-1" default="1">CHAR
+		</dataType>
+		<!-- jdbc类型CLOB -->
+		<dataType name="CLOB1" length="-1" precision="-1" default="0">CLOB
+		</dataType>
+		<!-- jdbc类型DATE -->
+		
+		<!-- jdbc类型DECIMAL -->
+		<dataType name="DECIMAL1" length="-1" precision="-1" default="0">
+			DECIMAL
+		</dataType>
+		<dataType name="DECIMAL2" length="0" precision="-1" default="0">DECIMAL(%n)
+		</dataType>
+		
+		<!-- jdbc类型DOUBLE -->
+		<dataType name="DOUBLE1" length="-1" precision="-1" default="0">DOUBLE
+		</dataType>
+		<dataType name="DOUBLE2" length="-1" precision="-1" default="1">DOUBLE
+		</dataType>
+		<dataType name="DOUBLE3" length="-1" precision="-1" default="1">DOUBLE
+		</dataType>
+		<!-- jdbc类型FLOAT -->
+		<dataType name="FLOAT1" length="0" precision="-1" default="1">DECIMAL(%n)
+		</dataType>
+		<dataType name="FLOAT2" length="0" precision="0" default="1">DECIMAL(%s,
+			%p)
+		</dataType>
+		<!-- jdbc类型INTEGER -->
+		<dataType name="INTEGER1" length="-1" precision="-1" default="0">
+			INTEGER
+		</dataType>
+		<!-- jdbc类型long varbinary -->
+		<dataType name="long varbinary1" length="-1" precision="-1"
+			default="1">LONG VARCHAR
+		</dataType>
+		<!-- jdbc类型long varchar -->
+		<dataType name="long varchar1" length="-1" precision="-1"
+			default="0">LONG VARCHAR
+		</dataType>
+		<!-- jdbc类型NUMERIC -->
+		<dataType name="NUMERIC1" length="-1" precision="-1" default="0">
+			NUMERIC
+		</dataType>
+		<dataType name="NUMERIC2" length="0" precision="-1" default="0">NUMERIC(%n)
+		</dataType>
+		<dataType name="NUMERIC3" length="0" precision="0" default="0">NUMERIC(%m,%n)
+		</dataType>
+		<!-- jdbc类型REAL -->
+		<dataType name="REAL1" length="-1" precision="-1" default="0">REAL
+		</dataType>
+		<!-- jdbc类型SMALLINT -->
+		<dataType name="SMALLINT1" length="-1" precision="-1"
+			default="0">SMALLINT
+		</dataType>
+		<!-- jdbc类型TIME -->
+		<dataType name="TIME1" length="-1" precision="-1" default="0">TIME
+		</dataType>
+		<!-- jdbc类型TIMESTAMP -->
+		
+		<!-- jdbc类型TINYINT -->
+		<dataType name="TINYINT1" length="-1" precision="-1" default="1">
+			SMALLINT
+		</dataType>
+		<dataType name="TINYINT2" length="-1" precision="-1" default="1">
+			SMALLINT
+		</dataType>
+		<dataType name="TINYINT3" length="-1" precision="-1" default="1">
+			SMALLINT
+		</dataType>
+		<!-- jdbc类型VARBINARY -->
+		<dataType name="VARBINARY1" length="0" precision="-1"
+			default="0">VARCHAR(%n)
+		</dataType>
+		<dataType name="VARBINARY2" length="-1" precision="-1"
+			default="1">LONG VARCHAR
+		</dataType>
+		<!-- jdbc类型VARCHAR -->
+		<dataType name="VARCHAR2" length="1" precision="-1" default="1">LONG VARCHAR
+		</dataType>
+	</database>
+</DatabaseType>
+

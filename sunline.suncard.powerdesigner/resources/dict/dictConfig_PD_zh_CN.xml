@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dicts locale="zh_CN">
+	<dictType dictTypeId="relation" dictTypeName="关联关系">
+		<dictEntry dictId="1..1" dictName="一对一"/>
+		<dictEntry dictId="1..*" dictName="一对多"/>
+		<dictEntry dictId="0..*" dictName="多对多"/>
+		<dictEntry dictId="0..1" dictName="多对一"/>
+	</dictType>
+	<dictType dictTypeId="tableType" dictTypeName="表格类型">
+		<dictEntry dictId="S" dictName="系统预置表"/>
+		<dictEntry dictId="U" dictName="用户配置表"/>
+		<dictEntry dictId="B" dictName="业务数据表"/>
+		<dictEntry dictId="D" dictName="日志表"/>
+	</dictType>
+
+	<dictType dictTypeId="dataresourceType" dictTypeName="数据来源类型">
+		<dictEntry dictId="NULL" dictName="&lt;无&gt;"/>
+		<dictEntry dictId="D" dictName="表数据源"/>
+		<dictEntry dictId="C" dictName="自定义数据"/>
+	</dictType>
+</dicts>
