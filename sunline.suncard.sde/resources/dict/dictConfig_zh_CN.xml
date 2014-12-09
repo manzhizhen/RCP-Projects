@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dicts locale="zh_CN">
+	<dictType dictTypeId="dbType" dictTypeName="数据库类型">
+		<dictEntry dictId="Derby" dictName="Derby"/>
+		<dictEntry dictId="MySQL" dictName="MySQL"/>
+		<dictEntry dictId="Oracle" dictName="Oracle"/>
+		<dictEntry dictId="Sybase" dictName="Sybase"/>
+		<dictEntry dictId="db2" dictName="db2"/>
+	</dictType>
+
+	<dictType dictTypeId="MySQL" dictTypeName="MySQL数据库">
+		<dictEntry dictId="dialect" dictName="org.hibernate.dialect.MySQLDialect"/>
+		<dictEntry dictId="connection.url" dictName="jdbc:mysql://localhost:3306/[dababase]"/>
+		<dictEntry dictId="connection.username" dictName="root"/>
+		<dictEntry dictId="connection.password" dictName="tpfpcwl"/>
+		<dictEntry dictId="connection.driver_class" dictName="com.mysql.jdbc.Driver"/>
+	</dictType>
+
+	<dictType dictTypeId="Derby" dictTypeName="Derby数据库">
+		<dictEntry dictId="dialect" dictName="org.hibernate.dialect.DerbyDialect"/>
+		<dictEntry dictId="connection.url" dictName="jdbc:derby:[database]"/>
+		<dictEntry dictId="connection.username" dictName="[username]"/>
+		<dictEntry dictId="connection.password" dictName="[password]"/>
+		<dictEntry dictId="connection.driver_class" dictName="org.apache.derby.jdbc.EmbeddedDriver"/>
+	</dictType>
+
+	
+</dicts>

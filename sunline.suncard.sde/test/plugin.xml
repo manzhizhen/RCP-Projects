@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="test.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="test.Perspective"
+            id="test.perspective">
+      </perspective>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="test.application"
+            name="测试">
+         <property
+               name="appName"
+               value="测试">
+         </property>
+      </product>
+   </extension>
+   <!--<extension
+         point="org.eclipse.ui.splashHandlers">
+      <splashHandler
+            class="test.MySplashHandler"
+            id="test.mySplash">
+      </splashHandler>
+      <splashHandlerProductBinding
+            productId="test.product"
+            splashId="test.mySplash">
+      </splashHandlerProductBinding>
+   </extension>-->
+
+</plugin>

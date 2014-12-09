@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dicts locale="zh_CN">
+	<dictType dictTypeId="reasonCode" dictTypeName="原因代码">
+		<dictEntry dictId="B" dictName="业务原因代码"/>
+		<dictEntry dictId="S" dictName="系统原因代码"/>
+	</dictType>
+	<dictType dictTypeId="varClass" dictTypeName="变量类别">
+		<dictEntry dictId="E" dictName="外部变量"/>
+		<dictEntry dictId="I" dictName="内部变量"/>
+	</dictType>
+	<dictType dictTypeId="varType" dictTypeName="变量类型">
+		<dictEntry dictId="S" dictName="字符型"/>
+		<dictEntry dictId="D" dictName="日期型"/>
+		<dictEntry dictId="N" dictName="数字型"/>
+	</dictType>
+	<dictType dictTypeId="dateFormat" dictTypeName="日期格式">
+		<dictEntry dictId="" dictName=""/>
+		<dictEntry dictId="YYYY-MM-DD" dictName="标准格式"/>
+	</dictType>
+	<dictType dictTypeId="inputParamType" dictTypeName="输入参数类型">
+		<dictEntry dictId="S" dictName="字符型"/>
+		<dictEntry dictId="N" dictName="数字型"/>
+		<dictEntry dictId="D" dictName="日期型"/>
+	</dictType>
+	<dictType dictTypeId="yesOrNo" dictTypeName="是否">
+		<dictEntry dictId="Y" dictName="是"/>
+		<dictEntry dictId="N" dictName="否"/>
+	</dictType>
+	<dictType dictTypeId="scoreCountType" dictTypeName="评分卡计分类型">
+		<dictEntry dictId="A" dictName="累加"/>
+		<dictEntry dictId="R" dictName="按比例计算"/>
+	</dictType>
+	<dictType dictTypeId="linkType" dictTypeName="连接线类型">
+		<dictEntry dictId="commonLink" dictName="普通连线"/>
+		<dictEntry dictId="computeLink" dictName="计算连线"/>
+		<dictEntry dictId="extendsLink" dictName="继承连线"/>
+	</dictType>
+	<dictType dictTypeId="outputType" dictTypeName="输出参数类型">
+		<dictEntry dictId="S" dictName="String"/>
+		<dictEntry dictId="N" dictName="int"/>
+		<dictEntry dictId="C" dictName="char"/>
+		<dictEntry dictId="L" dictName="long"/>
+		<dictEntry dictId="F" dictName="float"/>
+		<dictEntry dictId="D" dictName="double"/>
+		<dictEntry dictId="B" dictName="boolean"/>
+	</dictType>
+	<dictType dictTypeId="inputType" dictTypeName="输入参数类型">
+		<dictEntry dictId="E" dictName="外部变量"/>
+		<dictEntry dictId="I" dictName="内部变量"/>
+		<dictEntry dictId="D" dictName="抽样数据集"/>
+		<dictEntry dictId="P" dictName="政策"/>
+		<dictEntry dictId="S" dictName="策略"/>
+		<dictEntry dictId="E" dictName="入组条件"/>
+		<dictEntry dictId="F" dictName="函数"/>
+		<dictEntry dictId="C" dictName="评分卡"/>
+		<dictEntry dictId="A" dictName="统计分析"/>
+		<dictEntry dictId="B" dictName="原因代码"/>
+		<dictEntry dictId="H" dictName="结果代码"/>
+	</dictType>
+	<dictType dictTypeId="MySQL" dictTypeName="MySQL数据库">
+		<dictEntry dictId="dialect" dictName="org.hibernate.dialect.MySQLDialect"/>
+		<dictEntry dictId="connection.url" dictName="jdbc:mysql://localhost:3306/[dababase]"/>
+		<dictEntry dictId="connection.username" dictName="root"/>
+		<dictEntry dictId="connection.password" dictName="tpfpcwl"/>
+		<dictEntry dictId="connection.driver_class" dictName="com.mysql.jdbc.Driver"/>
+	</dictType>
+
+	<dictType dictTypeId="Derby" dictTypeName="Derby数据库">
+		<dictEntry dictId="dialect" dictName="org.hibernate.dialect.DerbyDialect"/>
+		<dictEntry dictId="connection.url" dictName="jdbc:derby:[database]"/>
+		<dictEntry dictId="connection.username" dictName="[username]"/>
+		<dictEntry dictId="connection.password" dictName="[password]"/>
+		<dictEntry dictId="connection.driver_class" dictName="org.apache.derby.jdbc.EmbeddedDriver"/>
+	</dictType>
+</dicts>

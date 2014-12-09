@@ -1,0 +1,10 @@
+1.完整的sde应用程序，包括sde、baseplugin、newdm、acd和workflow。
+2.保证sde可以在依赖好其它插件的条件下，可以在eclipse中正确运行。
+3.在acd项目中，包cn.sunline.suncard.sde.acd.gef.xml下的LocalDBConfigXml类中的String getConnectStr()方法中注释掉76行，采用79行代码。
+4.保证sde、baseplugin、newdm、acd和workflow中build.properties文件的Binary Build中资源的正确勾选，别落下一些资源，比如说icons文件夹。
+5.打开sde项目中的suncardsde.product文件，点击Testing的Synchronize进行下代码同步，然后点击右边Exporting中的Eclipse Product export wizard来导出项目。
+6.假设用户是将项目导出到D:\sde\文件夹下，项目文件夹名称为suncardsde.导出项目成功后，需要拷贝eclipse根目录下的config、resources、acd_actiondata和
+acd_workflowdata等四个文件夹拷贝到项目的根目录下，即D:\sde\suncardsde\下。
+7.将准备好的cardsde数据库也放在D:\sde\suncardsde\下。修改D:\sde\suncardsde\config\文件夹下的hibernate.cfg.xml文件<property name="connection.url">jdbc:derby:D:\sde\suncardsde\cardsde</property>.
+8.将sde、newdm、acd和workflow在eclipse环境运行时候产生的class（即bin文件夹下的cn文件夹）拷贝出来分别覆盖D:\sde\suncardsde\plugins\文件夹下的四个
+jar包中的cn（即替换掉所有的class文件）文件夹。

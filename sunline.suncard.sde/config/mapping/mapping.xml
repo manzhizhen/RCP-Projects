@@ -1,0 +1,13 @@
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsDepartment"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsFuncmapping"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsFunction"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsPatch"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsPatchmapping"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsPc"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsPlugin"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsPluginlog"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsRole"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsRolemapping"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsUser"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsUsermapping"/>
+<mapping class="cn.sunline.suncard.sde.bs.entity.BsWidget"/>
