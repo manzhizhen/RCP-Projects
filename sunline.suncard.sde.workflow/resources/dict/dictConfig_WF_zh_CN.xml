@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dicts locale="zh_CN">
+	<dictType dictTypeId="reasonCode" dictTypeName="原因代码">
+		<dictEntry dictId="B" dictName="业务原因代码"/>
+		<dictEntry dictId="S" dictName="系统原因代码"/>
+		<dictEntry dictId="P" dictName="继承决策原因"/>
+	</dictType>
+	<dictType dictTypeId="assignType" dictTypeName="分配方式">
+		<dictEntry dictId="A" dictName="分配给工作组主管"/>
+		<dictEntry dictId="B" dictName="平均分配给主管"/>
+		<dictEntry dictId="C" dictName="平均分配"/>
+		<dictEntry dictId="D" dictName="按条件分配"/>
+		<dictEntry dictId="E" dictName="分配给队列所有用户"/>
+	</dictType>
+</dicts>

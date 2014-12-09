@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<process-definition name='CommonCaseFlow1'>
+	<start-state name='CaseStart'>
+		<description>案件处理开始</description>
+		<transition to='CasePreCheckTask' name='案件预审核' />
+	</start-state>
+	<task-node name='CasePreCheckTask'>
+		<description>CasePreCheckDescription</description>
+		<task name='CasePreCheck'>
+			<description>案件预审核</description>
+			<assignment class='cn.sunline.suncard.trm.wf.TrmAssignmentHandler' />
+		</task>
+		<transition to='CasePreCheckDecision' />
+	</task-node>
+	<decision name='CasePreCheckDecision'>
+		<description>案件预审核决策</description>
+		<handler class='cn.sunline.suncard.trm.wf.TrmDecisionHandler' />
+		<transition to='CasePreCheck-ACC0000001' name='CasePreCheck-ACC0000001'>
+			<description>建立案件调查</description>
+		</transition>
+	</decision>
+	<node name='CasePreCheck-ACC0000001'>
+		<action class='cn.sunline.suncard.trm.wf.TrmWorkFlowActionHandler' />
+		<description>建立案件调查</description>
+		<transition to='ReserchSetup1Task' />
+	</node>
+	<task-node name='ReserchSetup1Task'>
+		<description>ReserchSetup1Description</description>
+		<task name='ReserchSetup1'>
+			<description>案件调查建立</description>
+			<assignment class='cn.sunline.suncard.trm.wf.TrmAssignmentHandler' />
+		</task>
+		<transition to='ReserchSetup1Decision' />
+	</task-node>
+	<decision name='ReserchSetup1Decision'>
+		<description>案件调查建立决策</description>
+		<handler class='cn.sunline.suncard.trm.wf.TrmDecisionHandler' />
+		<transition to='CasePreCheck-ACC0000003' name='CasePreCheck-ACC0000003'>
+			<description>直接处理</description>
+		</transition>
+		<transition to='CasePreCheck-ACC0000002' name='CasePreCheck-ACC0000002'>
+			<description>主管审核</description>
+		</transition>
+	</decision>
+	<node name='CasePreCheck-ACC0000003'>
+		<action class='cn.sunline.suncard.trm.wf.TrmWorkFlowActionHandler' />
+		<description>直接处理</description>
+		<transition to='CaseEnd' />
+	</node>
+	<node name='CasePreCheck-ACC0000002'>
+		<action class='cn.sunline.suncard.trm.wf.TrmWorkFlowActionHandler' />
+		<description>主管审核</description>
+		<transition to='CaseReserchTask' />
+	</node>
+	<task-node name='CaseReserchTask'>
+		<description>CaseReserchDescription</description>
+		<task name='CaseReserch'>
+			<description>案件调查</description>
+			<assignment class='cn.sunline.suncard.trm.wf.TrmAssignmentHandler' />
+		</task>
+		<transition to='CaseReserchDecision' />
+	</task-node>
+	<decision name='CaseReserchDecision'>
+		<description>案件调查决策</description>
+		<handler class='cn.sunline.suncard.trm.wf.TrmDecisionHandler' />
+		<transition to='CasePreCheck-ACC0000004' name='CasePreCheck-ACC0000004'>
+			<description>果断报案</description>
+		</transition>
+	</decision>
+	<node name='CasePreCheck-ACC0000004'>
+		<action class='cn.sunline.suncard.trm.wf.TrmWorkFlowActionHandler' />
+		<description>果断报案</description>
+		<transition to='CaseEnd' />
+	</node>
+	<end-state name='CaseEnd'>
+		<description>案件处理结束</description>
+	</end-state>
+</process-definition>
